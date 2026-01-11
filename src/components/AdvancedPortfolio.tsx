@@ -537,15 +537,8 @@ export default function AdvancedPortfolio(): JSX.Element {
                 />
                 <TimelineItem 
                   year="2024" 
-                  title="Software Developer Intern · Hogarth" 
-                  location="Gurugram, Haryana"
-                  description="Enhanced email campaigns and created product display pages for major brands, improving user engagement by 5%."
-                  technologies={["HTML", "CSS", "JavaScript", "Email Marketing"]}
-                />
-                <TimelineItem 
-                  year="2024" 
-                  title="Bachelor's in Computer Science · TIET" 
-                  location="Patiala, Punjab"
+                  title="Bachelor's in Computer Science · Graphic Era Hill University" 
+                  location="Dehradun, Uttarakhand"
                   description="Graduated with expertise in computer science fundamentals and software engineering principles."
                   technologies={["Java", "Algorithms", "Data Structures", "Software Engineering"]}
                 />
