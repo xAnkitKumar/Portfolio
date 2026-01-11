@@ -1,7 +1,9 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Calendar, Cloud, Code, Container, Database, DownloadCloud, ExternalLink, GitBranch, Github, Layers, Linkedin, Mail, MapPin, Phone, Server, Sparkles, Terminal, Workflow, Zap } from "lucide-react";
+import { Calendar, Cloud, Code, Container, Database, DownloadCloud, ExternalLink, GitBranch, Github, Layers,  Mail, MapPin, Phone, Server, Sparkles, Terminal, Workflow, Zap } from "lucide-react";
 import React, { useEffect, useState, type JSX } from "react";
 import Tilt from "react-parallax-tilt";
+import { FaLinkedin } from "react-icons/fa";
+
 
 
 type Project = {
@@ -289,8 +291,8 @@ export default function AdvancedPortfolio(): JSX.Element {
               <a href="mailto:kankit7220@gmail.com" className="flex items-center gap-2 sm:gap-3 text-gray-700 dark:text-gray-300 hover:text-cyan-600 transition-colors duration-300 text-sm sm:text-base">
                 <Mail size={16} className="sm:w-5 sm:h-5" /> kankit7220@gmail.com
               </a>
-              <a href="www.linkedin.com/in/ankit-kumar-001-" className="flex items-center gap-2 sm:gap-3 text-gray-700 dark:text-gray-300 hover:text-cyan-600 transition-colors duration-300 text-sm sm:text-base">
-                <Linkedin size={16} className="sm:w-5 sm:h-5" /> LinkedIn
+              <a href="https://www.linkedin.com/in/ankit-kumar-001-" className="flex items-center gap-2 sm:gap-3 text-gray-700 dark:text-gray-300 hover:text-cyan-600 transition-colors duration-300 text-sm sm:text-base">
+                <FaLinkedin size={16} className="sm:w-5 sm:h-5" /> LinkedIn
               </a>
             </motion.div>
 
